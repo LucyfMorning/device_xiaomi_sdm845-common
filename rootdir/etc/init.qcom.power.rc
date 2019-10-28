@@ -115,6 +115,9 @@ on enable-low-power
     # msm_drm
     write /proc/irq/7/smp_affinity_list 2
 
+    # synaptics,s3320
+    # write /proc/irq/377/smp_affinity_list 0
+
     # kgsl-3d0
     write /proc/irq/489/smp_affinity_list 1
 
